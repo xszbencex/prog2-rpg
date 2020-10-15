@@ -1,12 +1,15 @@
 package hu.unideb.inf.model;
 
-import java.util.List;
+import lombok.Builder;
+import lombok.Data;
 
+@Data
+@Builder
 public class Armor {
 
     private String name;
-    private int defense;
+    private float defense;
     private int level;
-    private List<Effect> effects;
+    private Effect effect;
 
 }
