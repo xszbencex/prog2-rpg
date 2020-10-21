@@ -10,4 +10,5 @@ public class Enemy extends Entity {
     private Weapon weaponDrop;
     private Armor armorDrop;
     private int xpDrop;
+
 }
